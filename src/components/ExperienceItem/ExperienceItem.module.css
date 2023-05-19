@@ -1,0 +1,36 @@
+.container {
+  box-sizing: border-box;
+  background: var(--white);
+  border-radius: 20px;
+  padding: 22px 8px 22px 22px;
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+.activeAnimate {
+  opacity: 1;
+}
+
+.containerWithButton {
+  max-height: 240px;
+  height: 240px;
+
+  position: relative;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.button {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+
+.mobileContent {
+  display: grid;
+  gap: 16px;
+}
